@@ -1,9 +1,5 @@
-import styles from "../styles/Home.module.css";
+import Index from "@/index";
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <div className="p-[15px] ">Testing</div>
-    </div>
-  );
+export default function IndexPage() {
+  return <Index />;
 }
