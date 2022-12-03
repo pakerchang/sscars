@@ -1,7 +1,8 @@
 import React from "react";
 
-function LayoutNews() {
-  return <div>LayoutNews</div>;
+function LayoutNews(props) {
+  const { children } = props;
+  return <div>{children}</div>;
 }
 
 export default LayoutNews;

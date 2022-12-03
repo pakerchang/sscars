@@ -1,7 +1,8 @@
 import React from "react";
+import LayoutSellQA from "layout/LayoutSellQA";
 
 function SellQA() {
-  return <div>SellQA</div>;
+  return <LayoutSellQA>SellQA</LayoutSellQA>;
 }
 
 export default SellQA;

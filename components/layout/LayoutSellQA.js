@@ -1,7 +1,8 @@
 import React from "react";
 
-function LayoutSellQA() {
-  return <div>LayoutSellQA</div>;
+function LayoutSellQA(props) {
+  const { children } = props;
+  return <div>{children}</div>;
 }
 
 export default LayoutSellQA;
