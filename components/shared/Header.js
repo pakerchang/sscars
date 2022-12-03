@@ -1,9 +1,7 @@
 import React from "react";
-import { Popover, Transition } from "@headlessui/react";
-
 
 function Header() {
-  return <div></div>;
+  return <div className="w-full h-[90px] flex justify-center items-center">Header</div>;
 }
 
 export default Header;
