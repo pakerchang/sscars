@@ -14,10 +14,11 @@ function Header() {
   ];
 
   const handleNavbar = (pathName) => Router.push(pathName);
+  const handleBack = () => Router.push("/");
 
   return (
     <div className="w-full h-[90px] flex justify-around items-center">
-      <div className="header-logo">
+      <div className="header-logo cursor-pointer" onClick={handleBack}>
         <Image src={logo} alt="logo" width={184} height={74} />
       </div>
       <div className="header-nav">
