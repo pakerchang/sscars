@@ -2,7 +2,7 @@ import React from "react";
 import LayoutInformation from "layout/LayoutInformation";
 
 function Information() {
-  return <div>Information</div>;
+  return <LayoutInformation>Information</LayoutInformation>;
 }
 
 export default Information;

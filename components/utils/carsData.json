@@ -1,0 +1,44 @@
+[
+  {
+    "imgSrc": "/assets/cars/8D32D4B6-5B20-4512-B6EE-A1454A916F21-1024x768.jpeg",
+    "data": {
+      "title": "2019 Toyota Corolla Altis(NEW) 1.8 Hybrid尊爵 自排 灰",
+      "price": "638,000"
+    }
+  },
+  {
+    "imgSrc": "/assets/cars/F6E6B481-17BB-4498-86EB-254AEA0D3F5A-1024x768.jpeg",
+    "data": {
+      "title": "2019 Toyota Corolla Altis 1.8雅緻版 自排 黑",
+      "price": "478,000"
+    }
+  },
+  {
+    "imgSrc": "/assets/cars/0AEB1AD6-5B64-467D-A19A-929B244C679C-1024x768.jpeg",
+    "data": {
+      "title": "2016 Nissan X-Trail 2.5豪華影音版 自排 白",
+      "price": "588,000"
+    }
+  },
+  {
+    "imgSrc": "/assets/cars/91C86F88-E43B-4FDC-8B50-FA848287EF57-1024x768.jpeg",
+    "data": {
+      "title": "2016 Mazda CX-3 2.0 SKYACTIVE-G頂級型 自排 白",
+      "price": "578,000"
+    }
+  },
+  {
+    "imgSrc": "/assets/cars/5C56E829-BCF2-4EB4-A9A7-163065987B82-1024x768.jpeg",
+    "data": {
+      "title": "2020 Volkswagen T-ROC 280 TSI Style Design 1.5 自排 白",
+      "price": "888,000"
+    }
+  },
+  {
+    "imgSrc": "/assets/cars/C1AC907C-2307-405E-80E9-7DF954941136-1024x768.jpeg",
+    "data": {
+      "title": "2015 Ford Kuga 1.5時尚經典型 自排 白",
+      "price": "698,000"
+    }
+  }
+]
