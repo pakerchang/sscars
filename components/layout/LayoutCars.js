@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-function LayoutCars() {
-  return (
-    <div>LayoutCars</div>
-  )
+function LayoutCars(props) {
+  const { children } = props;
+  return <div>{children}</div>;
 }
 
-export default LayoutCars
+export default LayoutCars;

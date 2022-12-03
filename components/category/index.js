@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import LayoutCategory from "layout/LayoutCategory";
 
 function Category() {
-  return (
-    <div>Category</div>
-  )
+  return <LayoutCategory>Category</LayoutCategory>;
 }
 
-export default Category
+export default Category;

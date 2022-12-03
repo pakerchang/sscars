@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-function LayoutCategory() {
-  return (
-    <div>LayoutCategory</div>
-  )
+function LayoutCategory(props) {
+  const { children } = props;
+  return <div>{children}</div>;
 }
 
-export default LayoutCategory
+export default LayoutCategory;
