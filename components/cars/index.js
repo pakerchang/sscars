@@ -1,17 +1,18 @@
 import React from "react";
 import LayoutCars from "layout/LayoutCars";
 import Card from "@/cars/Card";
-import carsData from "@/utils/carsData.json";
 import Pagination from "@/shared/Pagination";
+import { useRecoilValue } from "recoil";
+import { carsDataState } from "store/cars";
 
 function Cars() {
-  // For fake cars data
-  const generateFakeData = new Array(5).fill(carsData).flat();
+  const data = useRecoilValue(carsDataState);
+  const handlePageSwitch = (data) => {};
 
   return (
     <LayoutCars>
-      {carsData.map((item) => (
-        <Card key={item.imgSrc} imgSrc={item.imgSrc} data={item.data} />
+      {data.carsData.map((item, index) => (
+        <Card key={index} imgSrc={item.imgSrc} data={item.data} />
       ))}
       <Pagination />
     </LayoutCars>
