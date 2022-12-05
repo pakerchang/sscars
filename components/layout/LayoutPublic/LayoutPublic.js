@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "layout/LayoutPublic/Header";
-import Footer from "layout/LayoutPublic/Footer";
+import Header from "@/shared/Header";
+import Footer from "@/shared/Footer";
 import SecondaryLayout from "layout/SecondaryLayout";
 
 function LayoutPublic(props) {
