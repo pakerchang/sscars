@@ -13,5 +13,5 @@
 
 ```script
 yarn install
-yary dev
+yarn dev
 ```
